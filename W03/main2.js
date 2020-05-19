@@ -12,7 +12,7 @@ function main2()
     var camera = new THREE.PerspectiveCamera( fov, aspect, near, far );
     camera.position.set( 0, 0, 5 );
     scene.add( camera );
-    var light = new THREE.PointLight( 0xffffff );
+    var light = new THREE.DirectionalLight( 0xffffff );
     light.potision.set( 1,1,1 );
     scene.add( light );
 
