@@ -14,7 +14,7 @@ function main()
     scene.add( camera );
     var light = new THREE.PointLight( 0xffffff );
     light.potision.set( 1,1,1 );
-    scene.add( camera );
+    scene.add( light );
 
     var renderer = new THREE.WebGLRenderer();
     renderer.setSize( width, height );
