@@ -145,4 +145,13 @@ function main()
         triangle.rotation.y += 0.001;
         renderer.render( scene, camera );
     }
+
+    document.addEventListener( 'mousedown', mouse_down_event );
+    
+    function mouse_down_event( event )
+    {
+    
+    }
+
+
 }
